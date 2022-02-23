@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: rgb(144, 245, 186);
+    font-size: 25px;
+    line-height: 40px;
+}
+.menu-logo{
+    position: relative;
+    height: 50px;
+    background: rgb(242, 255, 186)
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    line-height: 50px;
+    left: 70px;
+}
+.menu-logo nav{
+    position: absolute;
+    right: 25px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 25px ;
+    line-height: 50px;
+    font-size: 20px;
+}
+.menu-logo nav a:visited{
+    color: blue;
+}
+.menu-logo nav a:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    margin-top: 110px; 
+}
+.banner img{
+    max-width: 100%;
+}
+.row .heading{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.row .news-list .news-item{
+    width: 22%;
+    display: inline-block;
+    margin: 10px 16px;
+    text-align: center;
+}
+
+.row .news-list .news-item:hover{
+    transform: scale(1.03);
+    background: tomato;
+    border-color: red;
+}
+b{color: red;}
+p{ color: black;}
+.row .news-list .news-item img{
+    max-width: 100%;
+   
+} 
+
+.tintuc .product .product-item{
+    margin: 20px;
+}
+footer{
+    background: rgb(242, 255, 186);
+    display: inline-block;
+    width: 100%;   
+}    
+
+footer .footer-item{
+    width: 300px;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.tacgia{
+    text-align: center;
+    background:rgb(144, 245, 186);
+    height: 40px;
+    line-height: 40px;
+   
+    
+}

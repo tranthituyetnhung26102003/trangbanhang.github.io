@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+header{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.menu-logo{
+    position: relative;
+    height: 50px;
+    background: rgb(242, 255, 186)
+}
+.menu-logo nav{
+    position: absolute;
+    right: 25px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 25px ;
+    line-height: 50px;
+    font-size: 20px;
+}
+.menu-logo nav a:visited{
+    color: blue;
+}
+.menu-logo nav a:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}        
+img{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+   
+}
+.form-group{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 40px;
+    top: 10px;
+}
+
+aside{
+    margin: 0 10px;
+    float: left;
+    width: 20%;
+    min-height: 1300px;
+    background-color: white;
+    margin-top: 25px;
+}
+aside h3{
+    color: cadetblue;
+}
+aside .card{
+    background-color: rgb(235, 251, 252);
+    padding: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+ h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    letter-spacing: .05em;
+    text-shadow: 2px 2px 0px rgb(193, 250, 107), 7px 7px 0px rgba(0, 0, 0, 2);
+   
+}
+.row .heading{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.row .news-list .news-item{
+    width: 22%;
+    display: inline-block;
+    margin: 10px 16px;
+    text-align: center;
+}
+.row .news-list .news-item img{
+    height: 300px;
+    width: 300px;
+}
+.row .news-list .news-item:hover{
+    transform: scale(1.1);
+    border: 1 1 solid red;
+    background:  rgb(235, 251, 252);
+    border-color: red;
+}
+footer{
+    background: rgb(242, 255, 186);
+    display: inline-block;
+    width: 100%;   
+    height: 200px;
+}    
+
+footer .footer-item{
+    width: 300px;
+    display: inline-block;
+    margin: 30px 30px;
+    text-decoration: none;
+}
+.tacgia{
+    background-color: turquoise;
+    text-align: center;
+    top: 10px;
+}
+H3{
+    color: red;;
+}
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="menu-logo">
+            <nav>
+                <a href="index.html">Trang chủ</a>
+                <a href="bst.html">Bộ sưu tập</a>
+                <a href="trangphuc.html">Trang phục</a>
+                <a href="giaydep.html">Giày dép</a>
+                <a href="phukien.html">Phụ kiện</a>
+                <a href="lienhe.html">Liên hệ</a>
+            </nav>
+        </div>        
+    </header>
+    
+    <img src="http://trangphucchothue.vn/img_data/images/cho-thue-trang-phuc-co-trang-trung-quoc.jpg">
+
+    <div class="form-group">
+        <label>Tìm kiếm:</label>
+        <input value="Search..." >
+        <label><i class='bx bxs-phone-call'></i>Đặt hàng nhanh: 0392592305</label>
+    </div>
+    <aside>
+        <div class="card">
+            <h3>Cho thuê - bán trang phục</h3>
+            <p>Thế giới cho thuê - bán trang phục các loại giá rẻ và hiện đại. Cho thuê quần áo thời trang hiện đại, cổ trang truyền thống của Trung Quốc.</p>
+        </div>
+
+        <div class="card">
+            <label>Lựa chọn màu sắc:</label><br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Màu nâu"></option>
+            <option value="Màu xám"></option>
+            <option value="Màu đen"></option>
+            <option value="Màu xanh"></option>
+            <option value="Màu hồng"></option>
+        </datalist>
+        </div>
+        <div class="card">
+            <h3>Liên hệ</h3>
+            <p>Điện thoại: 0392592305</p>
+            <p>Email: tttuyetnhung2610@gmail.com</p>
+        </div>
+        <div class="card">
+            <iframe width="253" height="180" src="https://www.youtube.com/embed/TdicEH1IthE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+    </aside>
+    <div class="row">
+        <h1>Thuê - bán trang phục Trung Quốc</h1>
+        <div class="news-list">
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2018/07/co-trang-nam-trung-quoc-vct064070-1-247x320.jpg.webp" alt="">
+                <p> CỔ TRANG TRUNG QUỐC CN068<br></p>
+                Thuê:<b><i class='bx bx-dollar'></i>300.000</b><br>
+                Bán:<b><i class='bx bx-dollar'></i>870.000</b>
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2018/07/co-trang-be-gai-048-247x320.jpg.webp" alt="">
+                <p> CỔ TRANG BÉ GÁI 048
+                </p>
+                Thuê: Không cho thuê</b><br>
+                Bán:<b><i class='bx bx-dollar'></i>320.000</b>
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2018/07/co-trang-be-gai-047-6-247x320.jpg.webp" alt="">
+                <p>CỔ TRANG BÉ GÁI 407
+                </p>
+                Thuê: Không cho thuê<br>
+                Bán:<b><i class='bx bx-dollar'></i>290.000</b>
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2018/06/trang-phuc-nu-sinh-trung-quoc-1-247x320.jpg.webp" alt="">
+                <p>TRANG PHỤC NƯ SINH TRUNG QUỐC
+                </p>
+                Thuê:<b> <i class='bx bx-dollar'></i>100.000</b><br>
+                Bán:<b> <i class='bx bx-dollar'></i>300.000</b>
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2018/06/trang-phuc-hoang-thuong-hoang-hau-2-247x320.jpg.webp" alt="">
+                <p>TRANG PHỤC VUA CÀN LONG
+                </p>
+                Thuê:<b><i class='bx bx-dollar'></i> 500.000 </b><br>
+                Bán:<b><i class='bx bx-dollar'></i> 1.000.000 </b>
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2017/06/trang-phuc-co-trang-nu-cn033-1-247x320.jpg.webp">
+                <p> PHỤC HOÀN CHÂU CÁCH CÁCH</P>
+                Thuê:<b><i class='bx bx-dollar'></i>250.000</b> <br>
+                Bán:<b><i class='bx bx-dollar'></i>650.000</b> 
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2017/08/trang-phuc-co-trang-nu-cn044-2-247x320.jpg.webp" alt="">
+                <p>CỔ TRANG NƯ BIỂU DIỄN CN044
+                </p>
+                Thuê:<b><i class='bx bx-dollar'></i>150.000</b><br>
+                Bán:<b><i class='bx bx-dollar'></i>550.000</b>
+               
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2020/08/trang-phuc-co-trang-nu-mau-da-2-247x320.jpg.webp" alt="">
+                <p>HÁN PHỤC TRUNG QUỐC VÁY XÒE</p>
+                Thuê:<b><i class='bx bx-dollar'></i>250.000</b><br>
+                Bán:<b><i class='bx bx-dollar'></i>750.000</b>
+             
+            </div>
+            <div class="news-item">
+                <img src="https://hoaigiangshop.com/wp-content/uploads/2020/02/co-trang-trung-quoc-nam-mau-trang-vien-den-247x320.jpg.webp" alt="">
+                <p>HÁN PHỤC CỔ TRANG NAM </p>
+                Thuê:<b><i class='bx bx-dollar'></i>150.000</b><br>
+                Bán:<b><i class='bx bx-dollar'></i>550.000</b>
+             
+            </div>
+            <hr>
+            <H3>HÁN PHỤC TRUNG QUỐC</H3><BR>
+                Trung Quốc là một đất nước có nền văn hóa lâu đời và được coi là cái nôi văn minh của nhân loại. Càng ngày các bộ phim điện ảnh Hoa ngữ càng chiếm sóng cao và xuất hiện đa dạng trang phục cổ trang đẹp lung linh. Tại Việt Nam, các bạn trẻ cũng có đam mê và nhu cầu được khoác lên bộ trang phục cổ trang Trung Hoa để chụp hình, cosplay nhân vật yêu thích. Hãy đến ngay Hoài Giang Shop để có thể sở hữu một bộ đồ ưng ý nhất.
+    <footer>
+        <div class="about footer-item">
+            <h3>Giới thiệu</h3>
+            <p>Thế giới cho thuê - bán trang phục các loại giá rẻ và hiện đại. Cho thuê quần áo thời trang hiện đại, cổ trang truyền thống của Trung Quốc.
+
+            </p>
+        </div>
+        <div class="link footer-item">
+            <h3>Liên kết</h3>
+            <a href="#"> Trang chủ</a><br>
+            <a href="#"> Giới thiệu </a><br>
+            <a href="#"> Chính sách</a><br>
+            <a href="#"> Phí vận chuyển</a><br>
+        </div>
+        <div class="link footer-item">
+            <h3>Dịch vụ khách hàng</h3>
+            <p><i class='bx bx-phone'></i>Liên hệ </p>
+            <p><i class='bx bx-send'></i> Thanh toán</p>
+            <p><i class='bx bx-gift'></i>Điểm thưởng</p>
+            
+        </div>
+    </footer>
+    <div class="tacgia">
+        <hr>
+        <p>
+            <b><i class='bx bxs-map'></i>Địa chỉ:</b> Quốc lộ 20, 101, xã La Ngà, huyện Định Quán, tỉnh Đồng Nai
+
+        </p>
+    </div>        
+</body>
+</html>

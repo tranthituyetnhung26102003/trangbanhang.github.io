@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;   
+}
+
+.thongbao .lienhe{
+    position: absolute;
+    display: inline-block;
+    line-height: 50px;
+    left: 70px;
+    background-color: aquamarine;
+    width: 100%;
+    left: 0;
+}
+.thongbao nav{
+    position: absolute;
+    right: 25px;
+}
+.thongbao nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 25px ;
+    line-height: 50px;
+    font-size: 20px;
+}
+.thongbao nav a:visited{
+    color: blue;
+}
+.thongbao nav a:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    margin-top: 51px; 
+}
+
+.row .heading{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.row .news-list .news-item{
+    width: 22%;
+    display: inline-block;
+    margin: 10px 16px;
+    text-align: center;
+}
+.row .news-list .news-item img{
+    height: 300px;
+    width: 300px;
+}
+.row .news-list .news-item:hover{
+    transform: rotate( 10deg);
+    background: greenyellow;
+    border-color: red;
+}
+.giay{
+    border: 7px dotted green;
+    font-size: large;
+}
+.giay img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.text{
+    background-color: rgb(247, 228, 240);
+}
+.text .hinhanh >img{
+    height: 100px;
+}
+footer{
+    background: rgb(242, 255, 186);
+    display: inline-block;
+    width: 100%;   
+    height: 150px;
+}    
+
+footer .footer-item{
+    width: 300px;
+    display: inline-block;
+    margin: 30px 30px;
+    text-decoration: none;
+}
+.tacgia{
+    background-color: turquoise;
+    text-align: center;
+    top: 10px;
+}
+h3{ color: red;}
